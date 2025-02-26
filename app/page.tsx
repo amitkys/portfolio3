@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 import { spaceMono } from "@/config/font";
+import { Spotlight } from "@/components/ui/spotlight";
 
 export default function HeroSectionGradientBackground() {
   return (
@@ -18,6 +19,10 @@ export default function HeroSectionGradientBackground() {
         </div>
         {/* End Gradients */}
         <div className="flex flex-col lg:flex-row items-center justify-around">
+            <Spotlight
+        className="-top-20 left-0 md:left-10 md:-top-20"
+        fill="gray"
+      />
           {/* first block of flex */}
           <div className="relative z-10">
             <div className="container py-10 lg:py-16">
