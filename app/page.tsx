@@ -34,15 +34,16 @@ export default function HeroSectionGradientBackground() {
                 {/* End Title */}
                 <div className="mt-5 max-w-3xl">
                   {/* description */}
-                  <p className="text-sm lg:text-base  text-muted-foreground font-stretch-expanded tracking-normal leading-7">
+                  <p className="text-sm lg:text-base  text-muted-foreground font-stretch-expanded tracking-normal !leading-8">
                     <span className="rounded-md bg-zinc-800 px-1.5 py-0.5 text-zinc-200">
                       NextJs Specialist
                     </span>{" "}
                     Shaping High-Impact Projects.{" "}
+                    <br className="block sm:hidden" />
                     <span className="rounded-md bg-zinc-800 px-1.5 py-0.5 text-zinc-200">
                       Open-Source Contributor
                     </span>{" "}
-                    with Proven Reach.{" "}
+                    with Proven Reach. <br className="block sm:hidden" />
                     <span className="rounded-md bg-zinc-800 px-1.5 py-0.5 text-zinc-200">
                       DSA Expertise
                     </span>{" "}
