@@ -1,8 +1,9 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
-import { spaceMono } from "@/config/font";
+// import { spaceMono } from "@/config/font";
 import { Spotlight } from "@/components/ui/spotlight";
+import ProjectSection from "@/components/Projects/ProjectSection";
 
 export default function HeroSectionGradientBackground() {
   return (
@@ -27,9 +28,7 @@ export default function HeroSectionGradientBackground() {
           <div className="relative z-10">
             <div className="container py-10 lg:py-16">
               <div className="max-w-2xl text-center mx-auto">
-                <p className={`${spaceMono.className} antialiased text-lg`}>
-                  I'm Amit, a..
-                </p>
+                <p className={`font-mono antialiased text-lg`}>I'm Amit, a..</p>
                 {/* Title */}
                 <div className="mt-5 max-w-2xl">
                   <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl">
@@ -82,6 +81,8 @@ export default function HeroSectionGradientBackground() {
         </div>
       </div>
       {/* End Hero */}
+
+      <ProjectSection />
     </>
   );
 }
