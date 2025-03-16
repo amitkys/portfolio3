@@ -1,4 +1,4 @@
-import ProjectCard from "@/components/cards/Project-Cards"
+import ProjectCard from "@/components/cards/Project-Cards";
 
 export default function ProjectSection() {
   // Sample project data
@@ -43,7 +43,7 @@ export default function ProjectSection() {
       liveUrl: "https://example.com/project5",
       githubUrl: "https://github.com/username/project5",
     },
-  ]
+  ];
 
   return (
     <main className="container mx-auto px-4 py-12">
@@ -56,6 +56,5 @@ export default function ProjectSection() {
         ))}
       </div>
     </main>
-  )
+  );
 }
-

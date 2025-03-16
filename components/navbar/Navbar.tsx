@@ -28,9 +28,9 @@ import { Navbar1Props } from "@/lib/types";
 const Navbar1 = ({
   logo = {
     url: "/",
-    src: "/",
+    src: "/navbar/icon.svg",
     alt: "logo",
-    title: "Amitkys.in",
+    title: "AmitKYs",
   },
   menu = [
     { title: "Home", url: "#" },
@@ -113,13 +113,13 @@ const Navbar1 = ({
     <section className="py-4">
       <div className="container">
         {/* Desktop Menu */}
-        <nav className="hidden justify-between lg:flex">
-          <div>
+        <nav className="hidden justify-between  lg:flex">
+          <div className="ml-3">
             <a className="flex items-center gap-2" href={logo.url}>
-              <img alt={logo.alt} className="w-8" src={logo.src} />
               <span className="text-lg font-semibold font-mono">
                 {logo.title}
               </span>
+              <img alt={logo.alt} className="w-10" src={logo.src} />
             </a>
           </div>
           <div className="flex items-center gap-6">
@@ -141,11 +141,13 @@ const Navbar1 = ({
           </div>
         </nav>
         {/* Mobile Menu */}
-        <div className="block lg:hidden">
+        <div className="block lg:hidden ml-2">
           <div className="flex items-center justify-between">
             <a className="flex items-center gap-2" href={logo.url}>
+              <span className="text-lg font-semibold font-mono">
+                {logo.title}
+              </span>
               <img alt={logo.alt} className="w-8" src={logo.src} />
-              <span className="text-lg font-semibold">{logo.title}</span>
             </a>
             <Sheet>
               <SheetTrigger asChild>
@@ -157,10 +159,10 @@ const Navbar1 = ({
                 <SheetHeader>
                   <SheetTitle>
                     <a className="flex items-center gap-2" href={logo.url}>
-                      <img alt={logo.alt} className="w-8" src={logo.src} />
-                      <span className="text-lg font-semibold">
+                      <span className="text-lg font-semibold font-mono">
                         {logo.title}
                       </span>
+                      <img alt={logo.alt} className="w-8" src={logo.src} />
                     </a>
                   </SheetTitle>
                 </SheetHeader>
