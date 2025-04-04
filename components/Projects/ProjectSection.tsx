@@ -1,3 +1,5 @@
+import { Separator } from "../ui/separator";
+
 import ProjectCard from "@/components/cards/Project-Cards";
 
 export default function ProjectSection() {
@@ -48,7 +50,13 @@ export default function ProjectSection() {
   return (
     <main className="container mx-auto px-4 py-12">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-center font-mono">
-        Projects I'm Proud of.
+        <div className="relative my-4 flex items-center justify-center overflow-hidden">
+          <Separator />
+          <div className="py-1 px-2 border rounded-full text-center bg-muted text-xs mx-1">
+            Projects
+          </div>
+          <Separator />
+        </div>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
