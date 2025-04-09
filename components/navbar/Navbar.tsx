@@ -36,22 +36,8 @@ const Navbar1 = ({
   },
   menu = [
     { title: "Home", url: "#" },
-    {
-      title: "Products",
-      url: "#",
-    },
-    {
-      title: "Resources",
-      url: "#",
-    },
-    {
-      title: "Pricing",
-      url: "#",
-    },
-    {
-      title: "Blog",
-      url: "#",
-    },
+    { title: "Project", url: "#" },
+    { title: "Contact", url: "#" },
   ],
   auth = {
     login: { text: "Log in", url: "#" },
