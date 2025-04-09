@@ -19,7 +19,7 @@ export default function ComingSoon() {
     // FIXED launch date: 7 days and 6 hours from April 10, 2025
     // This ensures everyone sees the same countdown regardless of when they visit
     // You would update this date based on when you actually deploy the site
-    const fixedLaunchDate = new Date("2025-04-17T06:00:00");
+    const fixedLaunchDate = new Date("2025-04-17T12:00:00");
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
