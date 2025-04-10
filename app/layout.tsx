@@ -7,6 +7,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Navbar1 } from "@/components/navbar/Navbar";
+import { borel } from "@/config/font";
 
 export const metadata: Metadata = {
   title: "Portfolio | Amitkys",
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <body
-        className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased dark:text-foreground/70 text-foreground mx-2`}
+        className={`${GeistSans.variable} ${GeistMono.variable} ${borel.variable} font-sans antialiased dark:text-foreground/70 text-foreground mx-2`}
       >
         <Navbar1 />
         <ThemeProvider
