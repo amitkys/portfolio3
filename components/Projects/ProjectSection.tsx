@@ -29,19 +29,19 @@ export default function ProjectSection() {
     },
     {
       id: "4",
-      title: "Weather Dashboard",
-      image: "/placeholder.svg?height=300&width=500",
+      title: "Wanderlust",
+      image: "/project-img/wanderlust-project.png",
       technologies: ["javascript", "css", "html", "api"],
-      liveUrl: "https://example.com/project4",
-      githubUrl: "https://github.com/username/project4",
+      liveUrl: "https://wanderlust-5fm7.onrender.com/listings",
+      githubUrl: "https://github.com/amitkys/wanderlust",
     },
     {
       id: "5",
-      title: "Social Media Clone",
-      image: "/placeholder.svg?height=300&width=500",
+      title: "",
+      image: "/project-img/quickPoll-project.png",
       technologies: ["react", "nodejs", "mongodb", "express"],
-      liveUrl: "https://example.com/project5",
-      githubUrl: "https://github.com/username/project5",
+      liveUrl: "https://quick-poll-beta.vercel.app/create",
+      githubUrl: "https://github.com/amitkys/quick-poll",
     },
   ];
 
@@ -49,7 +49,7 @@ export default function ProjectSection() {
     <main className="container mx-auto px-4 py-12">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-center font-mono">
         <div className="  my-4 flex items-center justify-center ">
-          <p className="font-borel">Projects that I Produ of..</p>
+          <p className="font-borel">Projects that I Proud of..</p>
         </div>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
