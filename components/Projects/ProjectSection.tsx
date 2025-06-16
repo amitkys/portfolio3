@@ -17,7 +17,6 @@ export default function ProjectSection() {
       description:
         "Smart quiz platform powered by AI with adaptive testing and real-time feedback.",
       image: "/project-img/sabnam-project.png",
-      technologies: ["react", "nextjs", "tailwind", "typescript"],
       liveUrl: "https://sabnam.vercel.app",
       githubUrl: "https://github.com/amitkys/sabnam_ai",
     },
@@ -27,7 +26,6 @@ export default function ProjectSection() {
       description:
         "Real-time messaging application with modern UI and smooth animations.",
       image: "/project-img/chat-project.png",
-      technologies: ["react", "tailwind", "framer-motion"],
       liveUrl: "https://chat-kys.netlify.app",
       githubUrl: "https://github.com/amitkys/chat",
     },
@@ -37,7 +35,6 @@ export default function ProjectSection() {
       description:
         "Complete laboratory management solution with patient tracking and report generation.",
       image: "/project-img/lab-project.png",
-      technologies: ["react", "redux", "firebase", "typescript"],
       liveUrl: "https://www.ak-diagnostic.in/",
       githubUrl: "https://github.com/amitkys/plab-report",
     },
@@ -47,7 +44,6 @@ export default function ProjectSection() {
       description:
         "Travel discovery platform to explore and book amazing destinations worldwide.",
       image: "/project-img/wanderlust-project.png",
-      technologies: ["javascript", "css", "html", "api"],
       liveUrl: "https://wanderlust-5fm7.onrender.com/listings",
       githubUrl: "https://github.com/amitkys/wanderlust",
     },
@@ -57,7 +53,6 @@ export default function ProjectSection() {
       description:
         "Fast and intuitive polling application for gathering opinions and feedback.",
       image: "/project-img/quickPoll-project.png",
-      technologies: ["react", "nodejs", "mongodb", "express"],
       liveUrl: "https://quick-poll-beta.vercel.app/create",
       githubUrl: "https://github.com/amitkys/quick-poll",
     },

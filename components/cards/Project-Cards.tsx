@@ -13,7 +13,6 @@ interface ProjectCardProps {
     title: string;
     description?: string;
     image: string;
-    technologies: string[];
     liveUrl: string;
     githubUrl: string;
   };
