@@ -19,6 +19,7 @@ export default function ProjectSection() {
       image: "/project-img/sabnam-project.png",
       liveUrl: "https://sabnam.vercel.app",
       githubUrl: "https://github.com/amitkys/sabnam_ai",
+      docsUrl: "https://sabnam.vercel.app",
     },
     {
       id: "2",
@@ -28,6 +29,7 @@ export default function ProjectSection() {
       image: "/project-img/chat-project.png",
       liveUrl: "https://chat-kys.netlify.app",
       githubUrl: "https://github.com/amitkys/chat",
+      docsUrl: "https://chat-kys.netlify.app",
     },
     {
       id: "3",
@@ -37,6 +39,7 @@ export default function ProjectSection() {
       image: "/project-img/lab-project.png",
       liveUrl: "https://www.ak-diagnostic.in/",
       githubUrl: "https://github.com/amitkys/plab-report",
+      docsUrl: "https://www.ak-diagnostic.in/",
     },
     {
       id: "4",
@@ -46,6 +49,7 @@ export default function ProjectSection() {
       image: "/project-img/wanderlust-project.png",
       liveUrl: "https://wanderlust-5fm7.onrender.com/listings",
       githubUrl: "https://github.com/amitkys/wanderlust",
+      docsUrl: "https://wanderlust-5fm7.onrender.com/listings",
     },
     {
       id: "5",
@@ -55,6 +59,7 @@ export default function ProjectSection() {
       image: "/project-img/quickPoll-project.png",
       liveUrl: "https://quick-poll-beta.vercel.app/create",
       githubUrl: "https://github.com/amitkys/quick-poll",
+      docsUrl: "https://quick-poll-beta.vercel.app/create",
     },
   ];
 

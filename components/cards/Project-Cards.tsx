@@ -3,7 +3,7 @@
 import type React from "react";
 
 import Image from "next/image";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, FileText } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -15,6 +15,7 @@ interface ProjectCardProps {
     image: string;
     liveUrl: string;
     githubUrl: string;
+    docsUrl: string;
   };
 }
 
@@ -59,7 +60,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Action Links - these are naturally clickable because they are <a> tags */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           <a
             className="flex items-center gap-1 py-1 px-1.5 text-xs font-medium text-primary bg-primary/10 hover:bg-primary/15 rounded-lg "
             href={project.liveUrl}
@@ -79,6 +80,16 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           >
             <Github className="h-3 w-3" />
             GitHub
+          </a>
+
+          <a
+            className="flex items-center gap-1 py-1 px-1.5 text-xs font-medium text-primary bg-primary/10 hover:bg-primary/15 rounded-lg "
+            href={project.docsUrl}
+            target="_blank"
+          // Same here, cursor-pointer might be redundant but harmless.
+          >
+            <FileText className="h-3 w-3" />
+            Docs
           </a>
         </div>
       </CardContent>
