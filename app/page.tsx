@@ -20,6 +20,9 @@ export default function HeroSectionGradientBackground() {
           <div className="bg-gradient-to-tl blur-3xl w-[90rem] h-[50rem] rounded-full origin-top-left -rotate-12 -translate-x-[15rem] from-primary-foreground via-primary-foreground to-background" />
         </div>
         {/* End Gradients */}
+
+        {/* Background Pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
         <div className="flex flex-col lg:flex-row items-center justify-around">
           <Spotlight
             className="-top-20 left-0 md:left-10 md:-top-20"
