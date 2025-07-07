@@ -6,6 +6,7 @@ import ProjectSection from "@/components/Projects/ProjectSection";
 import { Button } from "@/components/ui/button";
 import { Spotlight } from "@/components/ui/spotlight";
 import SkillShowcase from "@/components/skill-showcase";
+import ContactSection from "@/components/contact-section";
 
 export default function HeroSectionGradientBackground() {
   return (
@@ -89,6 +90,7 @@ export default function HeroSectionGradientBackground() {
 
       <ProjectSection />
       <SkillShowcase />
+      <ContactSection />
     </>
   );
 }
