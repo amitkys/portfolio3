@@ -5,6 +5,7 @@ import Image from "next/image";
 import ProjectSection from "@/components/Projects/ProjectSection";
 import { Button } from "@/components/ui/button";
 import { Spotlight } from "@/components/ui/spotlight";
+import SkillShowcase from "@/components/skill-showcase";
 
 export default function HeroSectionGradientBackground() {
   return (
@@ -23,7 +24,7 @@ export default function HeroSectionGradientBackground() {
 
         {/* Background Pattern */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-        <div className="flex flex-col lg:flex-row items-center justify-around">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-24">
           <Spotlight
             className="-top-20 left-0 md:left-10 md:-top-20"
             fill="gray"
@@ -87,6 +88,7 @@ export default function HeroSectionGradientBackground() {
       {/* End Hero */}
 
       <ProjectSection />
+      <SkillShowcase />
     </>
   );
 }

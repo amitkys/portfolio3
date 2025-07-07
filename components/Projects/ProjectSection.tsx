@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-import ProjectCard from "@/components/cards/Project-Cards";
+import ProjectCard from "@/components/Projects/Project-Cards";
 import { Card } from "@/components/ui/card";
 
 export default function ProjectSection() {
@@ -17,9 +17,9 @@ export default function ProjectSection() {
       description:
         "Smart quiz platform powered by AI with adaptive testing and real-time feedback.",
       image: "/project-img/sabnam-project.png",
-      liveUrl: "https://sabnam.vercel.app",
+      liveUrl: "https://sabnam.amitkys.in",
       githubUrl: "https://github.com/amitkys/sabnam_ai",
-      docsUrl: "https://sabnam.vercel.app",
+      docsUrl: "https://doc.amitkys.in/docs/sabnam",
     },
     {
       id: "2",
@@ -29,7 +29,6 @@ export default function ProjectSection() {
       image: "/project-img/chat-project.png",
       liveUrl: "https://chat-kys.netlify.app",
       githubUrl: "https://github.com/amitkys/chat",
-      docsUrl: "https://chat-kys.netlify.app",
     },
     {
       id: "3",
@@ -39,7 +38,6 @@ export default function ProjectSection() {
       image: "/project-img/lab-project.png",
       liveUrl: "https://www.ak-diagnostic.in/",
       githubUrl: "https://github.com/amitkys/plab-report",
-      docsUrl: "https://www.ak-diagnostic.in/",
     },
     {
       id: "4",
@@ -49,7 +47,6 @@ export default function ProjectSection() {
       image: "/project-img/wanderlust-project.png",
       liveUrl: "https://wanderlust-5fm7.onrender.com/listings",
       githubUrl: "https://github.com/amitkys/wanderlust",
-      docsUrl: "https://wanderlust-5fm7.onrender.com/listings",
     },
     {
       id: "5",
@@ -59,7 +56,6 @@ export default function ProjectSection() {
       image: "/project-img/quickPoll-project.png",
       liveUrl: "https://quick-poll-beta.vercel.app/create",
       githubUrl: "https://github.com/amitkys/quick-poll",
-      docsUrl: "https://quick-poll-beta.vercel.app/create",
     },
   ];
 
@@ -108,8 +104,8 @@ export default function ProjectSection() {
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground/80 to-foreground/60 bg-clip-text text-transparent">
-            Projects I'm Proud Of
+          <h1 className="text-3xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-foreground via-foreground/80 to-foreground/60 bg-clip-text text-transparent tracking-tight">
+            Projects I'm proud of
           </h1>
         </div>
 
