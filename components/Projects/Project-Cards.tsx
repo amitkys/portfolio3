@@ -5,7 +5,6 @@ import type React from "react";
 import { useState } from "react";
 import Image from "next/image";
 import { Github, ExternalLink, FileText, X } from "lucide-react";
-import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -61,9 +60,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </DialogTrigger>
 
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black/95 border-none">
-          <DialogTitle className="sr-only">
-            <VisuallyHidden>{project.title} - Project Image</VisuallyHidden>
-          </DialogTitle>
+          <DialogTitle className="sr-only">{project.title} - Project Image</DialogTitle>
           {/* Close button */}
           <div className="absolute top-4 right-4 z-10">
             <Button
